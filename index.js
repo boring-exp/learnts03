@@ -4,5 +4,8 @@
 function greeter(person) {
     return "Hello, " + person.indexOf("a");
 }
-var user = 1;
+// 类型推导
+var user = '1';
 console.log(greeter(user));
+var arr = ['1', '2'];
+arr[1].pjw();
